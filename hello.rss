@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Su's Podcast</title>
+    <googleplay:author>Su</googleplay:author>
+	<googleplay:email>alwayssmilesu@gmail.com</googleplay:email>
+    <description>I draw a cat</description>
+    <googleplay:image href="https://github.com/dansu1/dansu1.github.io/blob/master/image/2.png"/>
+    <language>en-us</language>
+    <link>https://github.com/dansu1/dansu1.github.io/blob/master/hellorss.html</link>
+    <item>
+      <title>I love cats</title>
+      <description>Here are the top 10 misunderstandings about the care, feeding, and breeding of these lovable striped animals.</description>
+      <pubDate>Wed, 19 June 2019 12:00:00 GMT</pubDate>
+     
+    </item>
+    
+  </channel>
+</rss>
