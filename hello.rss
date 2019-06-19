@@ -13,6 +13,7 @@
       <title>I love cats</title>
       <description>Here are the top 10 misunderstandings about the care, feeding, and breeding of these lovable striped animals.</description>
       <pubDate>Wed, 19 June 2019 12:00:00 GMT</pubDate>
+	  <enclosure url="http://www.examplesite.com/filename.mp3" length="123456" type="audio/x-mp3"/>
      
     </item>
     
