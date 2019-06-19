@@ -4,6 +4,7 @@
   <channel>
     <title>Su's Podcast</title>
     <googleplay:author>Su</googleplay:author>
+	<googleplay:email>alwayssmilesu@gmail.com</googleplay:email>
     <description>I draw a cat</description>
     <googleplay:image href="https://github.com/dansu1/dansu1.github.io/blob/master/image/2.png"/>
     <language>en-us</language>
