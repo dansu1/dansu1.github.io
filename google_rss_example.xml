@@ -1,0 +1,72 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     version="2.0">
+  <channel>
+   <title>The Example Times</title>
+   <link http://www.example.com/theexampletimes>
+   <description>The latest news from The Example Times.</description>
+   <itunes:author>The Example Times</itunes:author>
+   <image>
+     <url>http://www.example.com/theexampletimes/logo.png</url>
+     <title>The Example Times</title>
+     <link http://www.example.com/theexampletimes>
+   </image>
+   <item>
+     <title>Pandas run loose</title>
+     <description>Pandas escape from the San Francisco Zoo</description>
+     <link http://www.example.com/theexampletimes/article/pandas-run-loose.html>
+     <guid>http://www.example.com/theexampletimes/id/1234567891</guid>
+     <enclosure length="187000" type="audio/mpeg" url="http://www.example.com/theexampletimes/pandas_loose.mp3"/>
+     <media:content url="http://www.example.com/theexampletimes/jane_doe_intro.mp3" type="audio/mpeg" expression="sample" />
+     <media:content url="http://www.example.com/theexampletimes/pandas_loose.mp3" type="audio/mpeg" />
+     <media:thumbnail url="http://www.example.com/theexampletimes/pandas_loose.jpg"
+       width="1000" height="1000" />
+     <media:category label="a panda escape"/>
+     <pubDate>Thu, 8 Jun 2018 09:10:00 GMT</pubDate>
+     <itunes:duration>45</itunes:duration>
+   </item>
+   <item>
+     <title>Celebrities headline relief efforts</title>
+     <description>Stars are taking action to support those that lost their homes in Hurricane H by offering hands-on support</description>
+     <link http://www.example.com/theexampletimes/article/celebrities-headline-relief-efforts.html>
+     <guid>http://www.example.com/theexampletimes/id/1234567892</guid>
+     <enclosure length="187000" type="audio/mpeg"
+       url="http://www.example.com/theexampletimes/star_relief.mp3"/>
+     <media:content url="http://www.example.com/theexampletimes/jane_doe_intro.mp3" type="audio/mpeg" expression="sample" />
+     <media:group>
+       <media:content url="http://www.example.com/theexampletimes/star_relief.mp3" type="audio/mpeg" />
+       <media:content url="http://www.example.com/theexampletimes/star_relief.mp4" type="video/mp4" />
+     </media:group>
+     <media:credit scheme="urn:ebu" reporter="Jane Doe" />
+     <media:thumbnail url="http://www.example.com/theexampletimes/star_relief.jpg"
+       width="1000" height="1000" />
+     <media:category label="hurricane relief efforts"/>
+     <pubDate>Thu, 8 Jun 2018 09:20:00 GMT</pubDate>
+     <!-- To set an expiration date for the story, submit any timestamp in the future in the following tag -->
+     <dcterms:valid>end=2018-06-11T00:00:00+00:00; scheme=W3C-DTF</dcterms:valid>
+     <itunes:duration>30</itunes:duration>
+   </item>
+   <item>
+     <title>Jungle Cats win it all!</title>
+     <description>Jungle Cats football fans celebrate again after 25-year drought!</description>
+     <link http://www.example.com/theexampletimes/article/jungle-cats-win-it-all.html>
+     <guid>http://www.example.com/theexampletimes/id/1234567893</guid>
+     <enclosure length="187000" type="audio/mpeg" url="http://www.example.com/theexampletimes/jungle_cats_football.mp3"/>
+     <media:group>
+       <media:content url="http://www.example.com/theexampletimes/jungle_cats_football_4000.mp4" duration="129"
+         type="video/mp4" bitrate="4096000" width="1920" height="1080"/>
+       <media:content url="http://www.example.com/theexampletimes/jungle_cats_football_1500.mp4" duration="129"
+         type="video/mp4" bitrate="1596000" width="960" height="540"/>
+       <media:content url="http://www.example.com/theexampletimes/jungle_cats_football_400.mp4" duration="129"
+         type="video/mp4" bitrate="496000" width="448" height="252"/>
+       <media:content url="http://www.example.com/theexampletimes/jungle_cats_football.mp3" duration="129"
+         type="audio/mpeg" bitrate="128000" width="0" height="0"/>
+     </media:group>
+     <media:category label="the Jungle Cats"/>
+     <pubDate>Thu, 8 Jun 2018 11:03:00 GMT</pubDate>
+     <!-- To remove the story, submit any timestamp in the past in the following tag -->
+     <dcterms:valid>end=1970-01-01T00:00:00+00:00; scheme=W3C-DTF</dcterms:valid>
+     <itunes:duration>129</itunes:duration>
+   </item>
+  </channel>
+</rss>
